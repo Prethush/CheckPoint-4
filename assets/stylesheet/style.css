@@ -63,6 +63,7 @@ table {
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -1136,6 +1137,7 @@ a {
 
     html {
         font-size: 12px;
+    
     }
     .container {
         max-width: 940px;
