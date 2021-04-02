@@ -22,7 +22,7 @@
             <input id="toggle" type="checkbox" name="toggle">
             <nav class="nav">
                 <ul class="nav-menu flex justify-between item-center med-column">
-                    <li class="sub-menu"><a href="index.html">Home</a></li>
+                    <li class="sub-menu"><a href="index.html" class="active">Home</a></li>
                     <li class="sub-menu"><a href="#about">About</a></li>
                     <li class="sub-menu"><a href="#services">Services</a></li>
                     <li class="sub-menu"><a href="#portfolio">Portfolio</a></li>
@@ -58,18 +58,18 @@
 
         <!-- Hero -->
         <section class="hero">
-            <div class="hero-container container">
+            <article class="hero-container container">
                 <h2 class="heading">Welcome to Flexor</h2>
                 <p>We are a team of talented designers making websites with Bootstrap</p>
                 <div class="button flex item-center">
                     <span class="circle flex column justify-center item-center"><i class="fas fa-arrow-right"></i></span>
                     <a class="curve-btn text-center flex item-center justify-center">Get Started</a>
                 </div>
-            </div>
+            </article>
         </section>
 
         <section class="details-section">
-            <div class="container">
+            <article class="container">
                 <div class="hero-item flex justify-between item-center med-wrap">
                     <div class="details flex-30 med-flex-100">
                         <h3>Why Choose Flexor for your company website?</h3>
@@ -103,17 +103,17 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequatur ad, optio aliquam praesentium impedit.</p>
                     </div> 
                 </div>
-            </div>
+            </article>
         </section>
 
         <!-- About -->
 
         <section id="about">
             <div class="container flex justify-between med-wrap">
-                <div class="about-img flex-45 flex column justify-center item-center med-flex-100">
+                <article class="about-img flex-45 flex column justify-center item-center med-flex-100">
                     <img src="/assets/Media/About/about-img.jpg" alt="about" class="width-full">
                     <span class="circle column justify-center item-center"><i class="fas fa-caret-right"></i></span>
-                </div>
+                </article>
                 <div class="about-container flex-50 med-flex-100">
                     <h4>About us</h4>
                     <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
@@ -177,9 +177,12 @@
         <!-- Services -->
         <section id="services" class="padding">
             <div class="container">
-                <h3 class="text-center h3-style">Services</h3>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, vero fugiat. Placeat dolor ipsam numquam. elit. Perferendis, vero fugiat. Placeat dolor ipsam numquam</p>
-                <div class="service-container flex justify-between wrap med-wrap sm-wrap">
+                <header>
+                    <h3 class="text-center h3-style">Services</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, vero fugiat. Placeat dolor ipsam numquam. elit. Perferendis, vero fugiat. Placeat dolor ipsam numquam</p>
+                </header>
+                
+                <article class="service-container flex justify-between wrap med-wrap sm-wrap">
 
                     <div class="service-item flex-30 med-flex-47 sm-flex-100">
                         <div class="flex justify-center">
@@ -228,14 +231,14 @@
                         <h4 class="upper text-center">lorem ipsum</h4>
                         <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero debitis accusantium magni.</p>
                     </div>
-                </div>
+                </article>>
             </div>
         </section>
 
         <!-- Values -->
 
         <section class="values padding">
-            <div class="container">
+            <article class="container">
                 <div class="values-container flex justify-between wrap med-wrap sm-wrap">
 
                     <article class="values-item flex-47 med-flex-47 flex justify-center sm-flex-100">
@@ -277,7 +280,7 @@
                     </article>
 
                 </div>
-            </div>
+            </article>
         </section>
 
         <!-- Testimonials-->
@@ -338,17 +341,20 @@
 
         <section id="portfolio" class="padding">
             <div class="container">
-                <h3 class="h3-style text-center">Portfolio</h3>
-                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
-                <div class="nav-links text-center">
+                <header>
+                    <h3 class="h3-style text-center">Portfolio</h3>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                </header>
+                
+                <nav class="nav-links text-center">
                     <a href="#" class="upper active">All</a>
                     <a href="#" class="upper">App</a>
                     <a href="#" class="upper">Card</a>
                     <a href="#" class="upper">Web</a>
-                </div>
+                </nav>
                 <div class="portfolio-container flex justify-between wrap med-wrap sm-wrap">
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-1.jpg" alt="portfolio-1" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -364,7 +370,7 @@
                     </article>
 
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-2.jpg" alt="portfolio-2" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -380,7 +386,7 @@
                     </article>
 
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-3.jpg" alt="portfolio-3" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -396,7 +402,7 @@
                     </article>
 
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-4.jpg" alt="portfolio-4" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -412,7 +418,7 @@
                     </article>
 
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-5.jpg" alt="portfolio-5" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -428,7 +434,7 @@
                     </article>
 
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-6.jpg" alt="portfolio-6" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -444,7 +450,7 @@
                     </article>
 
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-7.jpg" alt="portfolio-7" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -460,7 +466,7 @@
                     </article>
 
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-8.jpg" alt="portfolio-8" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -476,7 +482,7 @@
                     </article>
 
                     <article class="portfolio-item flex-30 med-flex-47 sm-flex-100">
-                        <div class="portfolio-img">
+                        <div class="portfolio-img font-0">
                             <img src="/assets/Media/Portfolio/portfolio-9.jpg" alt="portfolio-9" class="width-full">
                         </div>
                         <div class="portfolio-text flex justify-between item-center">
@@ -498,20 +504,25 @@
 
         <section id="team" class="padding">
             <div class="container">
-                <h3 class="text-center h3-style">Team</h3>
-                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                <header>
+                    <h3 class="text-center h3-style">Team</h3>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                </header>
+                
                 <div class="team-container flex justify-between med-wrap sm-wrap">
 
                     <article class="team-item flex-23 med-flex-47 sm-flex-100">
                         <div class="team-img font-0">
                             <img src="/assets/Media/Team/team-1.jpg" alt="team-1" class="width-full">
                         </div>
-                        <div class="team-social text-center">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <nav class="team-social text-center">
+                            <ul class="flex justify-center">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>            
+                        </nav>
                         <div class="team-text">
                             <h4 class="text-center">Walter White</h4>
                             <h5 class="text-center capitalize">Chief executive officer</h5>
@@ -522,12 +533,14 @@
                         <div class="team-img font-0">
                             <img src="/assets/Media/Team/team-2.jpg" alt="team-2" class="width-full">
                         </div>
-                        <div class="team-social text-center">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <nav class="team-social text-center">
+                            <ul class="flex justify-center">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>            
+                        </nav>
                         <div class="team-text">
                             <h4 class="text-center">Sarah Jhonson</h4>
                             <h5 class="text-center capitalize">Product Manager</h5>
@@ -538,12 +551,14 @@
                         <div class="team-img font-0">
                             <img src="/assets/Media/Team/team-3.jpg" alt="team-3" class="width-full">
                         </div>
-                        <div class="team-social text-center">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <nav class="team-social text-center">
+                            <ul class="flex justify-center">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>            
+                        </nav>
                         <div class="team-text">
                             <h4 class="text-center">William Anderson</h4>
                             <h5 class="text-center capitalize">CTO</h5>
@@ -554,12 +569,14 @@
                         <div class="team-img font-0">
                             <img src="/assets/Media/Team/team-4.jpg" alt="team-4" class="width-full">
                         </div>
-                        <div class="team-social text-center">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <nav class="team-social text-center">
+                            <ul class="flex justify-center">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>            
+                        </nav>
                         <div class="team-text">
                             <h4 class="text-center">Amanda Jepson</h4>
                             <h5 class="text-center capitalize">Accountant</h5>
@@ -574,52 +591,70 @@
 
         <section id="pricing" class="padding">
             <div class="container">
-                <h3 class="h3-style text-center">Pricing</h3>
-                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                <header>
+                    <h3 class="h3-style text-center">Pricing</h3>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                </header>
+                
                 <div class="pricing-container flex justify-between med-wrap sm-wrap">
 
                     <div class="pricing-item flex-23  text-center med-flex-47 sm-flex-100">
                         <h6>Free</h6>
-                        <p class="price"><span><sup>$ </sup>0</span> / month</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum dolor.</p>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <p><s>Lorem, ipsum.</s></p>
-                        <p><s>Lorem, ipsum dolor.</s></p>
-                        <a href="#" class="btn btn-secondary">Buy Now</a>
+                        <ul class="pricing-text">
+                            <li class="price"><span><sup>$ </sup>0</span> / month</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li><s>Lorem, ipsum.</s></li>
+                            <li><s>Lorem, ipsum dolor.</s></li>
+                            <li><a href="#" class="btn btn-secondary">Buy Now</a></li>
+                        </ul>
                     </div>
 
                     <div class="pricing-item flex-23  text-center med-flex-47 sm-flex-100">
-                        <h6 class="active">Business</h6>
-                        <p class="price"><span><sup>$ </sup>19</span> / month</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum dolor.</p>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p><s>Lorem, ipsum dolor.</s></p>
-                        <a href="#" class="btn btn-secondary">Buy Now</a>
+                        <h6>Business</h6>
+                        <ul class="pricing-text">
+                            <li class="price"><span><sup>$ </sup>19</span> / month</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li><s>Lorem, ipsum dolor.</s></li>
+                            <li><a href="#" class="btn btn-secondary">Buy Now</a></li>
+                        </ul>
                     </div>
 
                     <div class="pricing-item flex-23  text-center med-flex-47 sm-flex-100">
                         <h6>Developer</h6>
-                        <p class="price"><span><sup>$ </sup>29</span> / month</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum dolor.</p>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum dolor.</p>
-                        <a href="#" class="btn btn-secondary">Buy Now</a>
+                        <ul class="pricing-text">
+                            <li class="price"><span><sup>$ </sup>29</span> / month</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li><a href="#" class="btn btn-secondary">Buy Now</a></li>
+                        </ul>
                     </div>
 
                     <div class="pricing-item flex-23  text-center med-flex-47 sm-flex-100">
-                        <h6>Ultimate</h6>
-                        <p class="price"><span><sup>$ </sup>49</span> / month</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum dolor.</p>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <p>Lorem, ipsum.</p>
-                        <p>Lorem, ipsum dolor.</p>
-                        <a href="#" class="btn btn-secondary">Buy Now</a>
+                        <div class="banner">
+                            <h6>Ultimate</h6>
+                             <span class="banner-text">Advanced</span>
+                        </div>  
+                        <ul class="pricing-text">
+                            <li class="price"><span><sup>$ </sup>49</span> / month</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li><a href="#" class="btn btn-secondary">Buy Now</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -629,8 +664,11 @@
 
         <section class="faq padding">
             <div class="container">
-                <h3 class="h3-style text-center">F.A.Q</h3>
-                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                <header>
+                    <h3 class="h3-style text-center">F.A.Q</h3>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                </header>
+                
                 <div class="faq-container mini-container">
 
                     <div class="faq-item first-item ">
@@ -692,15 +730,18 @@
 
         <section id="contact" class="padding">
             <div class="container">
-                <h3 class="h3-style text-center">Contact</h3>
-                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                <header>
+                    <h3 class="h3-style text-center">Contact</h3>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Eveniet iusto quidem consequuntur illo possimus tenetur porro vel fuga hic. Amet.</p>
+                </header>
+                
             <div class="contact-container mini-container flex justify-between med-wrap">
 
                 <div class="contact-item flex-30 flex med-flex-100">
                     <span class="circle flex column justify-center item-center location"><i class="fas fa-map-marker-alt"></i></span>
                     <div>
                         <h5>Our Address</h5>
-                        <address class="capitalize">A108 adam street, New York, NY 535022</address>
+                        <address class="capitalize">A108 adam street,<br> New York, NY 535022</address>
                     </div>
                 </div>
 
@@ -708,7 +749,7 @@
                     <span class="circle flex column justify-center item-center"><i class="far fa-envelope"></i></span>
                     <div>
                         <h5>Email Us</h5>
-                        <p>info@example.com<br>contact@example.com</p>
+                        <a href="#">info@example.com<br>contact@example.com</a>
                     </div>
                 </div>
 
@@ -716,8 +757,8 @@
                     <span class="circle flex column justify-center item-center"><i class="fas fa-phone-volume"></i></span>
                     <div>
                         <h5>Call Us</h5>
-                        <p>+1 5895 23541 55</p>
-                        <p>+1 5824 23457 66</p>
+                        <a>+1 5895 23541 55 <br></a>
+                        <a>+1 5824 23457 66</a>
                     </div>
                 </div>
             </div>
@@ -746,68 +787,69 @@
 
     <!-- Footer -->
 
-    <footer class="footer padding">
-        <div class="container">
-            <div class="footer-container flex justify-between med-wrap sm-wrap">
-                <div class="footer-item flex-20 med-flex-47 sm-flex-100">
-                    <h3 class="logo-text">Flexor</h3>
-                    <address class="capitalize">A108 <br> New York, NY 535022<br>United States</address>
-                    <p><strong>Phone:</strong> +1 5589 55488 55</p>
-                    <p><strong>Email:</strong> info@example.com</p>
+    <footer>
+        <div class="footer padding">
+                <div class="container footer-container flex justify-between med-wrap sm-wrap">
+                    <div class="footer-item flex-20 med-flex-47 sm-flex-100">
+                        <h3 class="logo-text">Flexor</h3>
+                        <address class="capitalize">A108 <br> New York, NY 535022<br>United States</address>
+                        <p><strong>Phone:</strong> +1 5589 55488 55</p>
+                        <p><strong>Email:</strong> info@example.com</p>
+                    </div>
+    
+                    <div class="footer-item flex-15 med-flex-47 sm-flex-100">
+                        <h3 class="links">Useful Links</h3>
+                            <ul class="link-menu">
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Home</a></li>
+                                <li><a href="#"><i class="fas fa-greater-than"></i> About Us</a></li>
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Services</a></li>
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Terms of service</a></li>
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Privacy policy</a></li>
+                            </ul>
+                    </div>
+    
+                    <div class="footer-item flex-15 med-flex-47 sm-flex-100">
+                        <h3>Our Services</h3>
+                            <ul class="link-menu">
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Web Design</a></li>
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Web Development</a></li>
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Product Management</a></li>
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Marketing</a></li>
+                                <li><a href="#"><i class="fas fa-greater-than"></i> Graphic Design</a></li>
+                            </ul>
+                    </div>
+    
+                    <div class="footer-item flex-30 med-flex-47 sm-flex-100">
+                        <h3>Join Our Newsletter</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aut.</p>
+                        
+                            <form action="#" class="search-form">
+                                <div class="search-container">
+                                    <input type="text" name="search" class="search">
+                                    <button class="btn btn-secondary">Subscribe</button>
+                                </div>
+                               
+                            </form>
+                        
+                    </div>
                 </div>
-
-                <div class="footer-item flex-15 med-flex-47 sm-flex-100">
-                    <h3 class="links">Useful Links</h3>
-                        <ul class="link-menu">
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Home</a></li>
-                            <li><a href="#"><i class="fas fa-greater-than"></i> About Us</a></li>
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Services</a></li>
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Terms of service</a></li>
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Privacy policy</a></li>
-                        </ul>
-                </div>
-
-                <div class="footer-item flex-15 med-flex-47 sm-flex-100">
-                    <h3>Our Services</h3>
-                        <ul class="link-menu">
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Web Design</a></li>
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Web Development</a></li>
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Product Management</a></li>
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Marketing</a></li>
-                            <li><a href="#"><i class="fas fa-greater-than"></i> Graphic Design</a></li>
-                        </ul>
-                </div>
-
-                <div class="footer-item flex-30 med-flex-47 sm-flex-100">
-                    <h3>Join Our Newsletter</h3>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aut.</p>
-                    
-                        <form action="#" class="search-form">
-                            <div class="search-container">
-                                <input type="text" name="search" class="search">
-                                <button class="btn btn-secondary">Subscribe</button>
-                            </div>
-                           
-                        </form>
-                    
-                </div>
+        </div>
+        <div class="footer-bottom padding">
+            <div class="container flex justify-between med-wrap med-text-center">
+                <small class="capitalize med-flex-100">&copy; Copyright <strong>Flexor</strong>. All rights reserved<br> Designed by <span class="orange">BootsrapMade</span></small>
+                <ul class="social-links flex med-flex-100 med-justify-center">
+                    <li><a href="#" class="btn justify-center item-center"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="btn justify-center item-center"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="btn justify-center item-center"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" class="btn justify-center item-center"><i class="fab fa-skype"></i></a></li>
+                    <li><a href="#" class="btn justify-center item-center"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
             </div>
+            <a href="#top"class="top-link flex justify-center item-center"><i class="fas fa-chevron-up"></i></a>
         </div>
     </footer>
 
-    <div class="footer-bottom padding">
-        <div class="container flex justify-between med-wrap med-text-center">
-            <small class="capitalize med-flex-100">&copy; Copyright <strong>Flexor</strong>. All rights reserved<br> Designed by <span class="orange">BootsrapMade</span></small>
-            <ul class="social-links flex med-flex-100 med-justify-center">
-                <li><a href="#" class="btn justify-center item-center"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#" class="btn justify-center item-center"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#" class="btn justify-center item-center"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#" class="btn justify-center item-center"><i class="fab fa-skype"></i></a></li>
-                <li><a href="#" class="btn justify-center item-center"><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-        </div>
-        <a href="#top"class="top-link flex justify-center item-center"><i class="fas fa-chevron-up"></i></a>
-    </div>
+  
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script type="text/javascript">
